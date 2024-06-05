@@ -1,0 +1,31 @@
+#test {
+    color: blueviolet;
+}
+
+#centeredDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center ;
+}
+
+#profileButton {
+ margin-left: auto;
+ margin-right: auto;
+ background: none;
+ outline: none;
+ border: none;
+ color: #000000;
+ font-size:xx-large;
+
+}
+
+#centeredText{
+    text-align: center;
+}
+
+#profileImage{
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
