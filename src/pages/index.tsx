@@ -13,7 +13,8 @@ export default function Home() {
   return (
     <>
      <div id={styles.centeredDiv}>
-      <h1 id={styles.centeredText} >{session?.user?.name}</h1>
+      <h3 id={styles.centeredText} >{session?.user?.name}</h3>
+      <p>test</p>
       <img id={styles.profileImage} src={session?.user?.image!}/>
       <br />
       {
