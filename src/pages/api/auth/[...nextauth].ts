@@ -7,10 +7,8 @@ import TwitterProvider from "next-auth/providers/twitter";
 import Auth0Provider from "next-auth/providers/auth0";
 import { MongoDBAdapter } from "@auth/mongodb-adapter"
 import clientPromise from "@/lib/mongodb"
-const modifiedMongoDBAdapter = MongoDBAdapter(clientPromise) as any;
 
 export default NextAuth({
-  adapter: modifiedMongoDBAdapter,
   providers: [
     GoogleProvider({
         clientId: process.env.GOOGLE_ID as string,
