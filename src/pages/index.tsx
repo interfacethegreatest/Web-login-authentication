@@ -9,6 +9,7 @@ import styles from '../styles/style.module.css'
 
 export default function Home() {
   const {data: session} = useSession();
+  console.log(session)
   return (
     <>
      <div id={styles.centeredDiv}>
