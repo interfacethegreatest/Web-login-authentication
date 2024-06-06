@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
      <div id={styles.centeredDiv}>
-      <h1 className="text-color-yellow" id={styles.centeredText} >{session?.user?.name}</h1>
-      <img id={styles.profileImage} src={session?.user?.image!}  />
+      <h1 id={styles.centeredText} >{session?.user?.name}</h1>
+      <img id={styles.profileImage} src={session?.user?.image!}/>
       <br />
       {
         session ?  (<Button id={styles.profileButton} onClick={() => signOut()}>Sign Out</Button>)
