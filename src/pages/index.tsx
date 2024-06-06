@@ -20,7 +20,6 @@ export default function Home() {
          :  (
           <Button id={styles.profileButton} onClick={() => signIn()}>Sign In</Button>
          )}
-      <br />
       <Example/>
       </div>
     </>
