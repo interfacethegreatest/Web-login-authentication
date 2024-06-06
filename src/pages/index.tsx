@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
      <div id={styles.centeredDiv}>
-      <h3 className="text-color-blue" id={styles.centeredText} >{session?.user?.name}</h3>
+      <h1 className="text-color-yellow" id={styles.centeredText} >{session?.user?.name}</h1>
       <img id={styles.profileImage} src={session?.user?.image!}  />
       <br />
       {
