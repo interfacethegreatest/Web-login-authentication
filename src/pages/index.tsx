@@ -14,7 +14,6 @@ export default function Home() {
     <>
      <div id={styles.centeredDiv}>
       <h3 id={styles.centeredText} >{session?.user?.name}</h3>
-      <p>2</p>
       <img id={styles.profileImage} src={session?.user?.image!}/>
       <br />
       {
